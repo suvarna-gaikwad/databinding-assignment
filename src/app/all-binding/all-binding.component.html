@@ -1,0 +1,4 @@
+<label>Item Name: </label>
+<input type="text" [(ngModel)]="itemName3"><br/> <!-- two way binding -->
+<button [disabled]="addItemBtnDisabledStatus" (click)="onItemChange($event)">Add Item</button> <!-- property binding and event binding-->
+<p> {{ itemStatus }} </p> <!-- string interpolation -->
