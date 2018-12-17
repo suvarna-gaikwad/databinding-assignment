@@ -1,3 +1,6 @@
-<button [disabled]=buttonDisabledStatus>Add Item</button> //property binding
+<button [disabled]=buttonDisabledStatus>Add Item</button> <!--property binding-->
 <br/>
+<!--
 <label>Button Disabled: {{ buttonDisabledStatus }} </label> //string interpolation
+-->
+<label [innerText]="buttonDisabledStatus"></label> <!--string interpolation replaced with property binding-->
