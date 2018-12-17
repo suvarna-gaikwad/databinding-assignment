@@ -1,0 +1,4 @@
+<label>Username: </label>
+<input type="text" [(ngModel)]="username"><br/>
+<p> Username entered is {{ username }} </p>
+<button [disabled]="username === ''" (click)="resetUser()">Reset</button>
