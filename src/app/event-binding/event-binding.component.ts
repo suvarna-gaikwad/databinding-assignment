@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
   itemStatus = 'No items added';
-  itemName = '';
+  itemName = 'Test item 1';
 
   constructor() { }
 
