@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,    
-    PropertyBindingComponent
+    PropertyBindingComponent, EventBindingComponent
   ],
   imports: [
     BrowserModule
