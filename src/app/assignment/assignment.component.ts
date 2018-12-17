@@ -18,4 +18,14 @@ export class AssignmentComponent implements OnInit {
     this.username = '';
   }
 
+  isStringEmpty(){
+    //if(this.username.length == 0){
+    if(this.username === ''){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+
 }
