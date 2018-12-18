@@ -1,7 +1,7 @@
 # databinding-assignment
 It demonstrates all types of binding:
 
-Property binding
-Event Binding
-Two way binding using ngModel
-String interpolation
+1. Property binding
+2. Event Binding
+3. Two way binding using ngModel
+4. String interpolation
